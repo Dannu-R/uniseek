@@ -1,0 +1,103 @@
+// Fake sample data for the prototype. Nothing here is real — it just
+// gives the screens realistic-looking content to display.
+
+const colleges = [
+  {
+    id: "northwood",
+    initial: "N",
+    accent: "#1b5e43",
+    name: "Northwood University",
+    location: "Burlington, VT",
+    type: "Private, 4-year",
+    size: "6,200 students",
+    setting: "Small town",
+    cost: "$34,800 / yr (est. net)",
+    match: "High",
+    admission: "Reach",
+    confidence: "High",
+    reason:
+      "Strong project-based engineering and a collaborative, non-cutthroat culture line up closely with your robotics background and stated preferences.",
+  },
+  {
+    id: "cedar-valley",
+    initial: "C",
+    accent: "#2d6a4f",
+    name: "Cedar Valley College",
+    location: "Asheville, NC",
+    type: "Private, 4-year",
+    size: "3,400 students",
+    setting: "Small city",
+    cost: "$27,500 / yr (est. net)",
+    match: "High",
+    admission: "Match",
+    confidence: "High",
+    reason:
+      "Your GPA and course rigor sit comfortably in the middle of admitted students, and the outdoor-focused community fits your interests.",
+  },
+  {
+    id: "lakeside-state",
+    initial: "L",
+    accent: "#40916c",
+    name: "Lakeside State University",
+    location: "Madison, WI",
+    type: "Public, 4-year",
+    size: "28,000 students",
+    setting: "Mid-size city",
+    cost: "$19,200 / yr (in-state)",
+    match: "Medium",
+    admission: "Safety",
+    confidence: "High",
+    reason:
+      "A very likely admit that keeps your list balanced. Larger than you said you prefer, but strong engineering and low cost make it worth considering.",
+  },
+  {
+    id: "brightman",
+    initial: "B",
+    accent: "#174433",
+    name: "Brightman Institute of Technology",
+    location: "Pasadena, CA",
+    type: "Private, 4-year",
+    size: "2,100 students",
+    setting: "Suburban",
+    cost: "$41,000 / yr (est. net)",
+    match: "High",
+    admission: "Reach",
+    confidence: "Medium",
+    reason:
+      "An excellent academic fit for your major, but confidence is lower because we have limited recent data on financial aid outcomes here.",
+  },
+  {
+    id: "harbor",
+    initial: "H",
+    accent: "#2f6f57",
+    name: "Harbor College",
+    location: "Portland, ME",
+    type: "Private, 4-year",
+    size: "1,900 students",
+    setting: "Small city",
+    cost: "$29,900 / yr (est. net)",
+    match: "Medium",
+    admission: "Match",
+    confidence: "Medium",
+    reason:
+      "Good all-around fit with a warm community. Some of your preferred programs are smaller here, which is worth weighing as a trade-off.",
+  },
+  {
+    id: "pinecrest",
+    initial: "P",
+    accent: "#5c6560",
+    name: "Pinecrest University",
+    location: "Boise, ID",
+    type: "Public, 4-year",
+    size: "12,000 students",
+    setting: "Mid-size city",
+    cost: "Data incomplete",
+    match: "Low",
+    admission: "Safety",
+    confidence: "Low",
+    reason:
+      "Shown as low-confidence: we have limited corroborated data on campus culture and only partial cost information for this school.",
+  },
+];
+
+export default colleges;
